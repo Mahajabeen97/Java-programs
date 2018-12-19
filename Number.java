@@ -2,7 +2,7 @@ package javaapplication;
  import java.util.Scanner;
 
  
-public class NumberCheck{
+ class NumberCheck{
 
    
     public static void main(String[] args) {
