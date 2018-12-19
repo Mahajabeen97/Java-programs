@@ -6,23 +6,22 @@ public class NumberCheck{
 
    
     public static void main(String[] args) {
-        // TODO code application logic here
 
     int n;
         Scanner s = new Scanner(System.in);
-        System.out.print("Enter the number you want to check:");
+        System.out.println("Enter the number you want to check:");
         n = s.nextInt();
         if(n > 0)
         {
-            System.out.println("The given number "+n+" is Positive");
+            System.out.println("Positive");
         }
         else if(n < 0)
         {
-            System.out.println("The given number "+n+" is Negative");
+            System.out.println("Negative");
         }
         else
         {
-            System.out.println("The given number "+n+" is Zero ");
+            System.out.println("Zero");
         }
     }
 }
